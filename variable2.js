@@ -8,12 +8,14 @@
 
 //datatypes
 let a=1;
-let b=2222222222222222222222;
+let b=2222222222222222222222n // n makes it a bigint datatype
 let c="a";
 let d=Symbol('a');
+let dd=Symbol('a');
 let e=true;
 let f=null; //NULL 
 let g//undefined
-console.log(typeof(d))
+console.log(typeof(z))
 console.log(typeof(f))
 console.log(typeof(g))
+console.info(d===dd)
