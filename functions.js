@@ -19,3 +19,9 @@ console.log(a(1,2,3,4,5))
 //function({a:1}) //passing obj
 //function([1,2,3,]) //passing array
 
+//scopes
+// let --> eventhough variable names are same butthey are differnt using let scope
+
+//hoisting
+//const let can't be hoisted
+// var function() can
