@@ -20,4 +20,5 @@ console.log(Math.ceil(0.4));
 //use .floor to remove decimals
 // formula
 //Math.random()*(max-min+1)+min
+console.log(Math.floor(Math.random()*(10)+1))
  // max-min+1 is range
