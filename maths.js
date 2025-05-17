@@ -1,6 +1,7 @@
 const num=new Number(100);
 // a number object;
 console.log(num)
+console.log(num)
 // number methods:
 /*
  1. toString() --> datatype conversion
