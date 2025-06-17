@@ -25,3 +25,8 @@ arr.reduce((accumulator, currentvalue)=>{
 // 2. then accumulator will store value of acc+currval
 // 3. then repeat the process until array ends.
 })
+
+
+// arr.reduce((acc, currval)=>{
+//     return acc+currval.price,0
+// })
