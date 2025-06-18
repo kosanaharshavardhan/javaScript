@@ -13,5 +13,8 @@ console.log(`${str}`)
 //6. replace('oldval','newval');// just replace firsy occurence
 //7. .includes
 //8. .split('-')
-console.log(str.slice(-2,-111))
+console.log(str.slice(-2,-1))
+console.log(str.slice(-5,4))
 console.log(str.replaceAll('i','I'))
+
+console.log(str.split(''))
