@@ -2,7 +2,7 @@ function print(){
     console.log("printing...")
 }
 print()
-//3+null ==3
+console.log(3+null ==3)
 
 // default parameter
 let fun=function(para= 'defaultName'){
