@@ -1,15 +1,17 @@
-//singleton
+//singleton   created by constructor
 //objext.create
-//object literals
+//object literals // not a single ton
 const obj={
     name:"hazlewood",
     team:"rcb"
 
 }
+obj.hi="hello"
+console.log(obj)
 // key is taken as string
 // accessing
 console.log(obj.name)
-// . method is violated when the key do not follow isentifier rules
+// . method is violated when the key do not follow identifier rules
 console.log(obj['name'])
 // interview
 // insert symbol in obj
@@ -30,7 +32,7 @@ console.log(obj.print())
 const objecr =new Object()
 console.log(objecr) //singleton
  // merge 2 objs
- let obj3=Object.assign({},obj,objecr)
+ let obj3=Object.assign({},obj,objecr)// {}--> default if some thing goes wrong it will return empty obj{target,source}
  // use spread operators mostly
  //Object.keys(objname) --> returns array
  console.log(Object.entries(obj))// key,value to array
