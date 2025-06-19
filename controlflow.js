@@ -7,3 +7,5 @@ val2 = 5 && 2 // checks like condition and return that value when conditiom sati
 console.log(val1,val2)
 
 console.log(undefined ?? null)
+
+console.log(Boolean({}))
