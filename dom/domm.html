@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+     <ul class="langs">
+        <li>Js</li>
+     </ul>
+
+
+     <script>
+            function addlang(lang){
+                let langweli=document.createElement('li')
+                let langwe=document.createTextNode(lang)
+                langweli.appendChild(langwe)
+                   //langweli.appendChild(document.createTextNode(lang))
+                // can also use innerHTML  langweli.innerHTML=lang
+                document.querySelector('ul').appendChild(langweli)
+            }
+            addlang('C++')
+            addlang('C#')
+
+            // EDTINg
+             const secondLang = document.querySelector("li:nth-child(2)")
+    console.log(secondLang);
+    //secondLang.innerHTML = "anything"
+    const newli = document.createElement('li')
+    newli.textContent = "anything"
+    secondLang.replaceWith(newli)
+
+            // let js=document.querySelector('li')
+            // // js.innerHTML="yourlang"
+            // or
+            // js.outerHTML='<li>your lang</li>'
+            // let newjs=document.createElement('li')
+            // li.appendChild(document.createTextNode("yourlang"))
+            // js.replaceWith(newjs)
+
+            //remove
+            // .remove() --> remove elt.
+            const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+     </script>
+</body>
+</html>
