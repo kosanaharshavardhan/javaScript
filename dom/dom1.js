@@ -94,4 +94,4 @@
 // li.style.color='red'
 //'red'
 
-// can manipulate easily
+// can manipulate easilyy
