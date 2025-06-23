@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realation</title>
+    <style>
+        .day{
+            color: red;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+
+
+    </div>
+    <script>
+        let parent=document.querySelector('.parent')
+        console.log(parent)
+        console.log(parent.children)
+        console.log(parent.children[0].textContent)
+        console.log(parent.children[1].innerHTML)
+
+        console.log(parent.firstElementChild)
+        //also
+        let one=document.querySelector('.day')
+        console.log(one)
+
+        console.log(one.parentElement,one.nextElementSibling)
+        console.log(parent.lastElementChild)
+
+
+        console.log("Nodes:",parent.childNodes) //even line braks are considered in this nodelist
+        
+    </script>
+</body>
+</html>
