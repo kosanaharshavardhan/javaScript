@@ -1,0 +1,1 @@
+console.log('escape character \n single comma - \'\n double comman \" newwwwww linnenuuu \n\n\n\n .')
