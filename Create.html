@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Create</title>
+</head>
+<body>
+    <form action="">
+        <label for="bg">Enter backGrounf Color</label>
+        <input type="text" name="bg" id="bg">
+        <label for="color">Enter text Color</label>
+        <input type="text" name="color" id="color">
+    </form>
+    <p id="p">Hello mates</p>
+    <button onclick="createEle()">Create</button>
+    <script>
+        function createEle(){
+            let div1=document.getElementById('p');
+            let div=document.createElement('div');
+            let bg=document.querySelector('#bg');
+            let color=bg.value;
+            let sbg=document.querySelector('#color');
+            let scolor=sbg.value;
+            let newelt=document.createTextNode('This is para');
+            div.appendChild(newelt);
+            div1.style.backgroundColor=color;
+            div1.style.color=scolor;
+            div.style.backgroundColor=color;
+            div.style.color=scolor;
+            div.setAttribute('id','root')
+            let idd=document.createTextNode(div.getAttribute('id'));
+            div.appendChild(idd);
+            document.body.appendChild(div);
+        }
+
+    </script>
+</body>
+</html>
