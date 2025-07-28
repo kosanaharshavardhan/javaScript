@@ -37,3 +37,4 @@ console.log(objecr) //singleton
  //Object.keys(objname) --> returns array
  console.log(Object.entries(obj))// key,value to array
 console.log( obj.hasOwnProperty('name'))
+// delete obj.key
