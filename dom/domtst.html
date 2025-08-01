@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let p=document.createElement('p');
+    let h1=document.createElement('h1');
+    p.appendChild(document.createTextNode('Hello there i am a para'));
+    h1.appendChild(document.createTextNode('Hello there i am a h1'));
+    document.body.appendChild(p);
+    p.replaceWith(h1);
+    h1.style.color="blue";
+    h1.remove();
+
+</script>
+</html>
