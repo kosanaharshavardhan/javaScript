@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>hello</li>
+        <li>hello2</li>
+    </ul>
+</body>
+<script>
+    document.querySelector('ul').addEventListener("click",(e)=>{
+        console.log("UL click");
+    },false)
+    document.querySelector('li').addEventListener("click",(e)=>{
+        console.log("Child click");
+        // e.stopPropagation()
+    },false)
+</script>
+</html>
