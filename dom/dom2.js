@@ -69,5 +69,6 @@ property 3;
 property n;
 })
 (4) [undefined, undefined, undefined, undefined]
+.
 
 */
