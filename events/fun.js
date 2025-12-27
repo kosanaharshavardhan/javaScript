@@ -1,4 +1,4 @@
-// console.log("Before hello");
+console.log("Before hello");
 try{
 setInterval(()=>{
     console.log("Hello");
@@ -6,4 +6,4 @@ setInterval(()=>{
 }catch(e){
     console.log(e.message);
 }
-// console.log("after hello");
+console.log("after hello");
