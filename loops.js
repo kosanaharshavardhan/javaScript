@@ -17,9 +17,9 @@ const obj={
     b:2
 }
 
-// for (const val of obj) {
-//     console.log(val)
-// }
+for (const val in obj) {
+    console.log(val)
+}
 
 // for in loop gives keys
 // for (const key in obj) {

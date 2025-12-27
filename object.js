@@ -18,7 +18,7 @@ console.log(obj['name'])
 // 1. create a symbol 
 //[symname]:"data" refers to created symbol
 // now it no more takes it as a str
-// access obj.[sumname]
+// access obj.[symname]
 
 //Object.freeze(obj) // unchangable
 obj.print=function(){

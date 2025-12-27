@@ -7,17 +7,22 @@
 </head>
 <body>
     <script>
-        debugger
+        
         function outer(){
-    let outa=2;
+    let outa=1;
+    let outb=1;
     function inner(){
-        console.log(outa);
+        console.log(outa++,outb);
     }
     return inner;
 }
 let a=outer();
 a();
 a();
+a();
+let b=outer();
+b();
+b();
 
     </script>
 </body>

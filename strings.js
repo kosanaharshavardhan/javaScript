@@ -18,3 +18,6 @@ console.log(str.slice(-5,4))
 console.log(str.replaceAll('i','I'))
 
 console.log(str.split(''))
+
+let har="harsha"
+console.log(har.slice(2,3));

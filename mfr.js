@@ -40,3 +40,12 @@ console.log(ans)
 // arr.reduce((acc, currval)=>{
 //     return acc+currval.price,0
 // })
+let ar=[1,2,3,4,5]
+let br=ar.filter((ele)=>{
+    if(ele%2==0) return ele;
+})
+console.log(br)
+let sum=ar.reduce((acc,curr)=>{
+    return acc+curr;
+},0)
+console.log(sum)
