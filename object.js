@@ -38,3 +38,6 @@ console.log(objecr) //singleton
  console.log(Object.entries(obj))// key,value to array
 console.log( obj.hasOwnProperty('name'))
 // delete obj.key
+// obj.freeze() const
+// obj.seal changes
+// obj.preventextension u know can delete

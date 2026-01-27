@@ -17,5 +17,17 @@
     }
     xhr.send();
     // xhtml og
+    console.log("Now fetch");
+    async function fetchh(){
+   try{
+     let response=await fetch('https://api.github.com/users/kosanaharshavardhan')
+    const response2=await response.json() // takes time .json so keep await
+    console.log(response2)
+   }
+   catch(e){
+    console.log(e);
+   }
+}
+fetchh();
 </script>
 </html>

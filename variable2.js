@@ -2,7 +2,7 @@
 // treat all code into new version of js
 //alert() --> cannot be worked in node js environment
 
-
+// prompt alert confirm
 //for notes
 // tc39 && mdn
 

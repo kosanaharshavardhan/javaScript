@@ -26,16 +26,16 @@ let ans=arr.reduce((accumulator, currentvalue)=>{
 // 2. then accumulator will store value of acc+currval
 // 3. then repeat the process until array ends.
 console.log(ans)
-// const myNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    const myNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // // const newNums = myNumers.map( (num) => { return num + 10})
 
-// const newNums = myNumers
-//                 .map((num) => num * 10 )
-//                 .map( (num) => num + 1)
-//                 .filter( (num) => num >= 40)
+const newNums = myNumers
+                .map((num) => num * 10 )
+                .map( (num) => num + 1)
+                .filter( (num) => num >= 40)
 
-// console.log(newNums);
+console.log(newNums);
 
 // arr.reduce((acc, currval)=>{
 //     return acc+currval.price,0

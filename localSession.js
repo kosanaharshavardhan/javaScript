@@ -6,3 +6,4 @@
 // .clear();
 // local upto 5mb stays in browser until unser explicitly deletes it
 // session stays until browser window is open
+// sessionStorage.setItem
