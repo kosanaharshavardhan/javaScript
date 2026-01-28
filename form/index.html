@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        form{
+            border: 2px solid black;
+            padding:  25px 125px;
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <label for="color">Enter color:</label>
+        <input type="text" id="color">
+        <button>Submit</button>
+    </form>
+    <script>
+        let btn=document.querySelector('button')
+        btn.addEventListener("click",(e)=>{
+            e.preventDefault();
+            let input=document.querySelector('input');
+            let color=input.value.toLowerCase();
+            console.log(typeof color);
+            document.body.style.backgroundColor=color;
+        })
+       
+
+
+    </script>
+</body>
+</html>
