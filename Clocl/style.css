@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    border: 1px solid black;
+    background-color: rgba(0,0,255,0.8);
+    height: 120px;
+    width: 450px;
+    padding: 5px;
+    gap: 5px;
+    display: flex;
+}
+.minute{
+    height: inherit;
+    width: 150px;
+    background-color: rgba(0, 242, 255, 0.637);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:azure;
+    font-size: 7em;
+    font-family: cursive;
+}
+.hour{
+    height: inherit;
+    width: 150px;
+    background-color: rgba(0, 242, 255, 0.637);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:orange;
+    font-size: 7em;
+    font-family: cursive;
+}
+.second{
+    height: inherit;
+    width: 150px;
+    background-color: rgba(0, 242, 255, 0.637);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(14, 237, 14);
+    font-size: 7em;
+    font-family: cursive;
+}
